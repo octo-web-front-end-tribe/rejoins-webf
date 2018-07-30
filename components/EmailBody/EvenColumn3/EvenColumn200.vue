@@ -24,7 +24,7 @@
                         <tr>
                             <td>
                                 <img class="angularjs" src="https://angularjs.org/img/ng-logo.png"
-                                     v-if="params.technos.angular"/>
+                                     v-if="params.technos.angularjs"/>
                                 <img src="https://angular.io/assets/images/logos/angular/angular.svg"
                                      v-if="params.technos.angular"/>
                                 <img class="react" src="https://cdn-images-1.medium.com/max/512/1*qUlxDdY3T-rDtJ4LhLGkEg.png"
