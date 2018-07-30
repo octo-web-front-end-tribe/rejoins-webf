@@ -2,11 +2,7 @@
     <!-- Email Body : BEGIN -->
     <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%"
            style="max-width: 980px;" class="email-container">
-
         <introduction :config="config"/>
-
-        <hero-image-flush :full-image="sortie.fullImage.src" :size="sortie.fullImage.size"></hero-image-flush>
-
     </table>
     <!-- Email Body : END -->
 </template>

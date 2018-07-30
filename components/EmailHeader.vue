@@ -4,7 +4,7 @@
            style="max-width: 980px;">
         <tr>
             <td style="padding: 20px 0; text-align: center">
-                <hero-image-flush :fullImage="params.fullImage"/>
+                <image-full-page :image="params.fullImage"/>
             </td>
         </tr>
     </table>
@@ -12,13 +12,13 @@
 </template>
 
 <script>
-    import HeroImageFlush from './EmailBody/HeroImageFlush';
+    import ImageFullPage from './EmailBody/ImageFullPage'
 
     export default {
         name: 'email-header',
         props:['params'],
         components: {
-            HeroImageFlush
+          ImageFullPage
         }
     };
 </script>
