@@ -15,15 +15,27 @@
 
         <title-table title="Nos missions"></title-table>
 
-        <div><h1>WIP</h1></div>
+        <tr>
+            <td>
+                <h1>WIP</h1>
+            </td>
+        </tr>
 
         <title-table title="R&D en cours"></title-table>
 
-        <div><h1>WIP</h1></div>
+        <tr>
+            <td>
+                <h1>WIP</h1>
+            </td>
+        </tr>
 
         <title-table title="Publications"></title-table>
 
-        <div><h1>WIP</h1></div>
+        <tr>
+            <td>
+                <h1>WIP</h1>
+            </td>
+        </tr>
 
         <title-table title="La tribu"></title-table>
 
@@ -39,47 +51,47 @@
 </template>
 
 <script>
-    import ThumbnailRightTextLeft from './EmailBody/ThumbnailRightTextLeft';
-    import ThumbnailLeftTextRight from './EmailBody/ThumbnailLeftTextRight';
-    import Introduction from './EmailBody/Introduction';
+  import ThumbnailRightTextLeft from './EmailBody/ThumbnailRightTextLeft'
+  import ThumbnailLeftTextRight from './EmailBody/ThumbnailLeftTextRight'
+  import Introduction from './EmailBody/Introduction'
 
-    import imageFullPage from './EmailBody/ImageFullPage';
-    import ColumnText from './EmailBody/ColumnText';
-    import TitleTable from './EmailBody/TitleTable';
-    import EvenColumn2 from "./EmailBody/EvenColumn2";
-    import EvenColumn3 from "./EmailBody/EvenColumn3";
-    import EvenColumn4 from "./EmailBody/EvenColumn4";
-    import HeroImageFlush from "./EmailBody/HeroImageFlush";
+  import imageFullPage from './EmailBody/ImageFullPage'
+  import ColumnText from './EmailBody/ColumnText'
+  import TitleTable from './EmailBody/TitleTable'
+  import EvenColumn2 from './EmailBody/EvenColumn2'
+  import EvenColumn3 from './EmailBody/EvenColumn3'
+  import EvenColumn4 from './EmailBody/EvenColumn4'
+  import HeroImageFlush from './EmailBody/HeroImageFlush'
 
-    export default {
-        components: {
-            HeroImageFlush,
-            EvenColumn2,
-            EvenColumn3,
-            EvenColumn4,
-            TitleTable,
-            ColumnText,
-            imageFullPage,
-            Introduction,
-            ThumbnailLeftTextRight,
-            ThumbnailRightTextLeft
-        },
-        name: 'email-body',
+  export default {
+    components: {
+      HeroImageFlush,
+      EvenColumn2,
+      EvenColumn3,
+      EvenColumn4,
+      TitleTable,
+      ColumnText,
+      imageFullPage,
+      Introduction,
+      ThumbnailLeftTextRight,
+      ThumbnailRightTextLeft
+    },
+    name: 'email-body',
 
-        props: ['config'],
+    props: ['config'],
 
-        data() {
-            return {
-                refcard: this.config.refcard,
-                BBLJest: this.config.BBLJest,
-                BOFNuxt: this.config.BOFNuxt,
-                twitter: this.config.twitter,
-                sortie: this.config.sortie,
-                mouvements: this.config.mouvements,
-                missions: this.config.missions
-            };
-        }
-    };
+    data () {
+      return {
+        refcard: this.config.refcard,
+        BBLJest: this.config.BBLJest,
+        BOFNuxt: this.config.BOFNuxt,
+        twitter: this.config.twitter,
+        sortie: this.config.sortie,
+        mouvements: this.config.mouvements,
+        missions: this.config.missions
+      }
+    }
+  }
 </script>
 
 <style>
