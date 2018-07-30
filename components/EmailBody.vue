@@ -1,7 +1,7 @@
 <template>
     <!-- Email Body : BEGIN -->
     <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%"
-           style="max-width: 780px;" class="email-container">
+           style="max-width: 980px;" class="email-container">
 
         <introduction :config="config"/>
 
@@ -29,11 +29,6 @@
 
         <hero-image-flush :full-image="sortie.fullImage.src" :size="sortie.fullImage.size"></hero-image-flush>
 
-        <even-column-4 :title="mouvements.title" :table="mouvements.table"/>
-
-        <title-table title="Nos missions"/>
-
-        <nos-missions v-for="(mission, index) in missions" :key="index" :mission="mission"/>
     </table>
     <!-- Email Body : END -->
 </template>

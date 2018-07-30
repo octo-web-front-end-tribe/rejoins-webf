@@ -8,7 +8,7 @@
                     <td align="center" valign="top" width="780">
             <![endif]-->
             <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
-                   style="max-width:780px;">
+                   style="max-width: 980px;">
                 <tr>
                     <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
                         <!--[if mso]>

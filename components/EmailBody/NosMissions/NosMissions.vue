@@ -6,17 +6,17 @@
             style="padding: 0px 0;">
             <!--[if mso]>
             <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780"
-                   style="width: 780px;">
+                   style="width: 980px;">
                 <tr>
-                    <td align="center" valign="top" width="780" style="width: 780px;">
+                    <td align="center" valign="top" width="780" style="width: 980px;">
             <![endif]-->
             <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
-                   style="max-width:780px;">
+                   style="max-width: 980px;">
                 <tr>
                     <td align="left" valign="top" style="font-size:0; padding: 0px 0;">
                         <!--[if mso]>
                         <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780"
-                               style="width: 780px;">
+                               style="width: 980px;">
                             <tr>
                                 <td align="left" valign="top" width="220" style="width: 220px;">
                         <![endif]-->
