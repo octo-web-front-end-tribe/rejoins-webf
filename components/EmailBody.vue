@@ -8,6 +8,32 @@
         <title-table title="Qu'est ce qu'un WebF ?"></title-table>
 
         <column-text component-name="QuestCeQuunWebF"/>
+
+        <title-table title="Architecte chez WebF ? Bien sûr !!"></title-table>
+
+        <column-text component-name="ArchitecteOui"/>
+
+        <title-table title="Nos missions"></title-table>
+
+        <div><h1>WIP</h1></div>
+
+        <title-table title="R&D en cours"></title-table>
+
+        <div><h1>WIP</h1></div>
+
+        <title-table title="Publications"></title-table>
+
+        <div><h1>WIP</h1></div>
+
+        <title-table title="La tribu"></title-table>
+
+        <even-column4 title="" :table="config.peoples"></even-column4>
+
+        <even-column4 title="" :table="config.peoples.slice(4)"></even-column4>
+
+        <even-column4 title="" :table="config.peoples.slice(8)"></even-column4>
+
+        <even-column3 title="" :table="config.peoples.slice(12)"></even-column3>
     </table>
     <!-- Email Body : END -->
 </template>
@@ -58,6 +84,6 @@
 
 <style>
     li {
-        margin-bottom: 10px;
+        margin-bottom: 6px;
     }
 </style>

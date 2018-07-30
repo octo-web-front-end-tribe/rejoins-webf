@@ -18,10 +18,12 @@
 
 <script>
     import QuestCeQuunWebF from '@/contents/questcequunwebf.md'
+    import ArchitecteOui from '@/contents/architecteoui.md'
     export default {
         name: 'column-text',
         components: {
-          QuestCeQuunWebF
+          QuestCeQuunWebF,
+          ArchitecteOui
         },
 
         props: ['componentName'],

@@ -9,6 +9,13 @@
                            style="font-size: 14px;text-align: left;  text-align:center">
                         <tr>
                             <td style="">
+                                <h2 style="margin: 0px 10px 10px; font-family: sans-serif; font-size: 18px; line-height: 125%; color: rgb(20, 160, 192);">
+                                    {{params.prenom}}
+                                </h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="">
                                 <img :src="srcImage" width="100" height="" border="0" alt="alt_text"
                                      class="center-on-narrow"
                                      style="width: 100%; max-width: 100px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
@@ -22,16 +29,16 @@
 </template>
 
 <script>
-    export default {
-        name: 'even-column200',
-        props: ['params'],
+  export default {
+    name: 'even-column200',
+    props: ['params'],
 
-        data() {
-            return {
-                srcImage: this.params.image || 'http://placehold.it/200'
-            };
-        }
-    };
+    data () {
+      return {
+        srcImage: this.params.image || 'http://placehold.it/200'
+      }
+    }
+  }
 </script>
 
 <style scoped>
