@@ -21,6 +21,32 @@
                                      style="width: 100%; max-width: 100px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
                             </td>
                         </tr>
+                        <tr>
+                            <td>
+                                <img class="angularjs" src="https://angularjs.org/img/ng-logo.png"
+                                     v-if="params.technos.angular"/>
+                                <img src="https://angular.io/assets/images/logos/angular/angular.svg"
+                                     v-if="params.technos.angular"/>
+                                <img class="react" src="https://cdn-images-1.medium.com/max/512/1*qUlxDdY3T-rDtJ4LhLGkEg.png"
+                                     v-if="params.technos.react"/>
+                                <img class="vuejs" src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/104/thumb_bigger_formation-vue-js.png"
+                                     v-if="params.technos.vuejs"/>
+                                <img class="nodejs" src="https://jaystack.com/wp-content/uploads/2015/12/nodejs-logo-e1497443346889.png"
+                                     v-if="params.technos.nodejs"/>
+                                <img class="java" src="http://www.stickpng.com/assets/images/58480979cef1014c0b5e4901.png"
+                                     v-if="params.technos.java"/>
+                                <img class="ruby" src=" http://budiirawan.com/wp-content/uploads/2015/04/ruby-logo.png"
+                                     v-if="params.technos.ruby"/>
+                                <img class="backbone" src="https://seeklogo.com/images/B/backbone-logo-5471D69D9B-seeklogo.com.png"
+                                     v-if="params.technos.backbone"/>
+                                <img class="ember" src="http://emberjs.com/images/tomster-sm.png"
+                                     v-if="params.technos.ember"/>
+                                <img class="python" src=" https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/2/formation-python.png"
+                                     v-if="params.technos.python"/>
+
+
+                            </td>
+                        </tr>
                     </table>
                 </td>
             </tr>
@@ -42,5 +68,28 @@
 </script>
 
 <style scoped>
-
+    img {
+        width: 20px
+    }
+    .angularjs {
+        width: 16px;
+    }
+    .react {
+        width: 25px;
+    }
+    .vuejs {
+        width: 17px;
+    }
+    .nodejs {
+        width: 17px;
+    }
+    .java {
+        width: 16px;
+    }
+    .backbone {
+        width: 14px;
+    }
+    .python {
+        width: 18px
+    }
 </style>
