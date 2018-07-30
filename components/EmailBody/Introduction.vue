@@ -19,17 +19,18 @@
                     <td
                             style="padding: 0 10px 0px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; text-align: left;">
                         <p style="margin: 0;">
+                            <title-table title="TL;DR;"></title-table>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td
+                            style="padding: 0 10px 0px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; text-align: left;">
+                        <p style="margin: 0;">
                             <intro></intro>
                         </p>
                     </td>
                 </tr>
-                <tr style="display: none">
-                    <td
-                            style="padding: 0 10px 40px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
-                        <email-button texte="Découvre mes sources" urlLink="https://google.com"/>
-                    </td>
-                </tr>
-
             </table>
         </td>
     </tr>
@@ -37,21 +38,23 @@
 </template>
 
 <script>
-    import EmailButton from './EmailButton';
-    import Intro from '@/contents/introduction.md';
+  import EmailButton from './EmailButton'
+  import Intro from '@/contents/introduction.md'
+  import TitleTable from './TitleTable'
 
-    export default {
-        components: {
-            EmailButton,
-            Intro
-        },
-        name: 'introduction',
-        props: ['config'],
+  export default {
+    components: {
+      TitleTable,
+      EmailButton,
+      Intro
+    },
+    name: 'introduction',
+    props: ['config'],
 
-        data() {
-            return this.config.introduction;
-        }
-    };
+    data () {
+      return this.config.introduction
+    }
+  }
 </script>
 
 <style scoped>
