@@ -14,14 +14,6 @@
                                      style="width: 100%; max-width: 100px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
                             </td>
                         </tr>
-                        <tr>
-                            <td
-                                    style="font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; padding-top: 10px;"
-                                    class="stack-column-center">
-                                <h2>{{emoji1}} {{params.tri}} {{emoji2}}</h2>
-                                <p style="margin: 0;" v-html="params.content"></p>
-                            </td>
-                        </tr>
                     </table>
                 </td>
             </tr>
@@ -30,7 +22,6 @@
 </template>
 
 <script>
-    import EmojiMouvement from '@/services/emojiMouvement';
 
     export default {
         name: 'even-column200',
@@ -38,9 +29,7 @@
 
         data() {
             return {
-                srcImage: this.params.image || 'http://placehold.it/200',
-                emoji1: EmojiMouvement.emoji(this.params.entree),
-                emoji2: EmojiMouvement.emoji(this.params.entree)
+                srcImage: this.params.image || 'http://placehold.it/200'
             };
         }
     };
