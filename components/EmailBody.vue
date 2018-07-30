@@ -40,7 +40,6 @@
 
     import imageFullPage from './EmailBody/ImageFullPage';
     import ColumnText from './EmailBody/ColumnText';
-    import NosMissions from './EmailBody/NosMissions/NosMissions';
     import TitleTable from './EmailBody/TitleTable';
     import EvenColumn2 from "./EmailBody/EvenColumn2";
     import EvenColumn3 from "./EmailBody/EvenColumn3";
@@ -54,7 +53,6 @@
             EvenColumn3,
             EvenColumn4,
             TitleTable,
-            NosMissions,
             ColumnText,
             imageFullPage,
             Introduction,
