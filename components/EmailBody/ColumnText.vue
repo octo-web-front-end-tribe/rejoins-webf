@@ -17,9 +17,11 @@
 </template>
 
 <script>
+    import QuestCeQuunWebF from '@/contents/questcequunwebf.md'
     export default {
         name: 'column-text',
         components: {
+          QuestCeQuunWebF
         },
 
         props: ['componentName'],

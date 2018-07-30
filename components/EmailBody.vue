@@ -2,7 +2,12 @@
     <!-- Email Body : BEGIN -->
     <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%"
            style="max-width: 980px;" class="email-container">
+
         <introduction :config="config"/>
+
+        <title-table title="Qu'est ce qu'un WebF ?"></title-table>
+
+        <column-text component-name="QuestCeQuunWebF"/>
     </table>
     <!-- Email Body : END -->
 </template>
@@ -51,3 +56,8 @@
     };
 </script>
 
+<style>
+    li {
+        margin-bottom: 10px;
+    }
+</style>
