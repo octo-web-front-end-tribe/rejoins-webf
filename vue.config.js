@@ -1,4 +1,5 @@
 module.exports = {
+  baseUrl: process.env.NODE_ENV === 'production' ? '/rejoins-webf/' : '/',
   chainWebpack: config => {
     config.module.rule('md')
       .test(/\.md/)
