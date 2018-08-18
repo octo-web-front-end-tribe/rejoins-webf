@@ -12,7 +12,9 @@
   export default {
     name: 'header-web',
     data () {
-      return {}
+      return {
+        backgroundUrl: 'assets/header.jpg'
+      }
     },
 
     created () {
@@ -23,9 +25,8 @@
 </script>
 
 <style scoped>
-
     .header-web {
-        background: #000 url('/header.jpg') center center no-repeat;
+        background: #000 url('../assets/header.jpg') center center no-repeat;
         background-size: cover;
         width: 100%;
         height: 350px;
